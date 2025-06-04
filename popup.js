@@ -12,7 +12,7 @@ function summarizePage() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Your api key`
+            'Authorization': 'Your api key'
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
